@@ -7,8 +7,8 @@ export default function About() {
         </h1>
         <p className="text-xl text-gray-700 leading-relaxed mb-4">
           This website uses the{" "}
-          <span className="font-semibold text-indigo-600">
-            REST Countries API
+          <span className="font-semibold text-green-500">
+            REST Countries API and React-Router-V7
           </span>{" "}
           to display comprehensive information about countries from around the
           world.
@@ -20,9 +20,13 @@ export default function About() {
           interactive explorer makes it easy.
         </p>
         <p className="text-lg text-gray-700 leading-relaxed">
-          Our goal is to build a fully responsive and modern web application
+          My goal was to build a fully responsive and modern web application
           using the latest technologies, including React Router v7 for seamless
           routing and Tailwind CSS for a beautiful, responsive user interface.
+        </p>
+        <p className="text-lg text-gray-700 leading-relaxed text-center pt-10">
+          By Yergali Arsen -
+          Contact me(tg): @arsenyergali
         </p>
       </div>
     </div>

@@ -57,7 +57,7 @@ export default function Countries({ loaderData }: Route.ComponentProps) {
             >
               <Link
                 to={`/countries/${country.name.common}`}
-                className="text-indigo-600 hover:underline text-lg font-semibold"
+                className="text-green-600 hover:underline text-lg font-semibold"
               >
                 {country.name.common}
               </Link>

@@ -3,8 +3,8 @@ import type { Route } from "./+types/home";
 
 export function meta({ }: Route.MetaArgs) {
   return [
-    { title: "RESTExplorer" },
-    { name: "Check out country data!", content: "Welcome to RESTExplorer." },
+    { title: "Country Explorer" },
+    { name: "Check out country data!", content: "Welcome to Countries Explorer." },
   ];
 }
 
@@ -16,19 +16,18 @@ export default function Home() {
           <div className="w-full md:w-1/2 md:px-3">
             <div className="space-y-6 sm:max-w-md lg:max-w-lg">
               <h1 className="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl">
-                <span className="block xl:inline">Explore Countries with</span>
-                <span className="block text-indigo-600 xl:inline">
+                <span className="block xl:inline">Explore Countries In </span>
+                <span className="block text-green-500 xl:inline">
                   Real-Time Data
                 </span>
               </h1>
-              <p className="mx-auto text-base text-gray-500 sm:max-w-md lg:text-xl">
-                Discover details about every country around the world – from
-                capitals to regions!
+              <p className="text-base text-gray-500 sm:max-w-md lg:text-xl">
+                Discover new insights about each country! From capitals to regions.
               </p>
               <div className="flex flex-col sm:flex-row sm:space-x-4">
                 <Link
                   to="/countries"
-                  className="flex items-center justify-center px-6 py-3 text-lg text-white bg-indigo-600 rounded-md hover:bg-indigo-700"
+                  className="flex items-center justify-center px-6 py-3 text-lg text-white bg-green-500 rounded-md hover:bg-green-700"
                 >
                   Explore Now
                   <svg
@@ -49,7 +48,7 @@ export default function Home() {
                   to="/about"
                   className="flex items-center px-6 py-3 text-gray-500 bg-gray-100 rounded-md hover:bg-gray-200 hover:text-gray-600"
                 >
-                  Learn More
+                  About
                 </Link>
               </div>
             </div>
